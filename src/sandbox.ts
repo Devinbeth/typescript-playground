@@ -8,6 +8,8 @@ const arr = [2, 3, '4', false];
 
 arr.push();
 
-let add: Function = (a: number, b: number) => console.log(a + b);
+let add = (a: number, b: number, c?: number) => {
+  console.log(a + b);
+};
 
-console.log(add(4, 6));
+add(4, 7);

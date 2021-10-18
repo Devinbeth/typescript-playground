@@ -1,8 +1,10 @@
 "use strict";
-var character = 'peach';
-var circumference = function (diameter) { return diameter * Math.PI; };
+let character = 'peach';
+const circumference = (diameter) => diameter * Math.PI;
 console.log(circumference(5));
-var arr = [2, 3, '4', false];
+const arr = [2, 3, '4', false];
 arr.push();
-var add = function (a, b) { return console.log(a + b); };
-console.log(add(4, 6));
+let add = (a, b, c) => {
+    console.log(a + b);
+};
+add(4, 7);
